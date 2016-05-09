@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2A8BA01CD2F48E00E068B4 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2A8B9F1CD2F48E00E068B4 /* File.swift */; };
+		5C4BB8881CE07E1600114227 /* stuck.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5C4BB8871CE07E1600114227 /* stuck.gif */; };
 		5CA979D31CC7215300CD2818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA979D21CC7215300CD2818 /* main.m */; };
 		5CA979D61CC7215300CD2818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA979D51CC7215300CD2818 /* AppDelegate.m */; };
 		5CA979D91CC7215300CD2818 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA979D81CC7215300CD2818 /* ViewController.m */; };
 		5CA979DC1CC7215300CD2818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA979DA1CC7215300CD2818 /* Main.storyboard */; };
 		5CA979DE1CC7215300CD2818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA979DD1CC7215300CD2818 /* Assets.xcassets */; };
 		5CA979E11CC7215300CD2818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA979DF1CC7215300CD2818 /* LaunchScreen.storyboard */; };
+		5CF862941CD9A2A300B69028 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF862931CD9A2A300B69028 /* NSString+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C2A8B9E1CD2F48E00E068B4 /* Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C2A8B9F1CD2F48E00E068B4 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5C4BB8871CE07E1600114227 /* stuck.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stuck.gif; sourceTree = "<group>"; };
 		5CA979CE1CC7215300CD2818 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA979D21CC7215300CD2818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CA979D41CC7215300CD2818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,8 @@
 		5CA979DD1CC7215300CD2818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CA979E01CC7215300CD2818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CA979E21CC7215300CD2818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF862921CD9A2A300B69028 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		5CF862931CD9A2A300B69028 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +66,20 @@
 		5CA979D01CC7215300CD2818 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				5C4BB8871CE07E1600114227 /* stuck.gif */,
 				5CA979D41CC7215300CD2818 /* AppDelegate.h */,
 				5CA979D51CC7215300CD2818 /* AppDelegate.m */,
 				5CA979D71CC7215300CD2818 /* ViewController.h */,
 				5CA979D81CC7215300CD2818 /* ViewController.m */,
+				5CF862921CD9A2A300B69028 /* NSString+Extension.h */,
+				5CF862931CD9A2A300B69028 /* NSString+Extension.m */,
+				5C2A8B9F1CD2F48E00E068B4 /* File.swift */,
 				5CA979DA1CC7215300CD2818 /* Main.storyboard */,
 				5CA979DD1CC7215300CD2818 /* Assets.xcassets */,
 				5CA979DF1CC7215300CD2818 /* LaunchScreen.storyboard */,
 				5CA979E21CC7215300CD2818 /* Info.plist */,
 				5CA979D11CC7215300CD2818 /* Supporting Files */,
+				5C2A8B9E1CD2F48E00E068B4 /* Test-Bridging-Header.h */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -139,6 +152,7 @@
 				5CA979E11CC7215300CD2818 /* LaunchScreen.storyboard in Resources */,
 				5CA979DE1CC7215300CD2818 /* Assets.xcassets in Resources */,
 				5CA979DC1CC7215300CD2818 /* Main.storyboard in Resources */,
+				5C4BB8881CE07E1600114227 /* stuck.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF862941CD9A2A300B69028 /* NSString+Extension.m in Sources */,
 				5CA979D91CC7215300CD2818 /* ViewController.m in Sources */,
+				5C2A8BA01CD2F48E00E068B4 /* File.swift in Sources */,
 				5CA979D61CC7215300CD2818 /* AppDelegate.m in Sources */,
 				5CA979D31CC7215300CD2818 /* main.m in Sources */,
 			);
@@ -198,6 +214,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -242,6 +259,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -263,10 +281,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test/Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -274,10 +295,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test/Test-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -300,6 +323,7 @@
 				5CA979E71CC7215300CD2818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "Test-Swift.h"
+
 @interface ViewController : UIViewController
 
 
