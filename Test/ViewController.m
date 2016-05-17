@@ -10,6 +10,8 @@
 
 #import "NSString+Extension.h"
 
+#import "TestView.h"
+
 @interface ViewController ()
 
 @end
@@ -19,10 +21,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    /**
+     sayHappy
+     */
     File *file = [[File alloc] init];
     [file sayHappy];
     
+    /**
+     *  千分位
+     */
     NSString *num = @"23561223435454634.234343";
     NSString *new = [NSString returnMillonString:num];
     NSString *newDouble = [num convert:[num doubleValue]];
@@ -46,6 +53,20 @@
     NSString *new3Double = [num3 convert:[num3 doubleValue]];
     NSLog(@"new3:%@",new3);
     NSLog(@"new3Double:%@",new3Double);
+    
+    
+    /**
+     *  图文混排
+     */
+    CGRect imageTextFrame = CGRectMake(0, 200, 100, 200);
+    TestView *imageText = [[TestView alloc] initWithFrame:imageTextFrame];
+    imageText.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:imageText];
+    
+    CGRect line2ImageTextFrame = CGRectMake(120, 200, 200, 200);
+    TestView *line2imageText = [[TestView alloc] initWithFrame:line2ImageTextFrame];
+    line2imageText.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:line2imageText];
 }
 
 - (void)didReceiveMemoryWarning {

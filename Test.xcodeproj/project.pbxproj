@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5C2A8BA01CD2F48E00E068B4 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2A8B9F1CD2F48E00E068B4 /* File.swift */; };
+		5C4AB5441CEAEA00000FEE5A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AB5421CEAEA00000FEE5A /* TestViewController.m */; };
+		5C4AB5451CEAEA00000FEE5A /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4AB5431CEAEA00000FEE5A /* TestViewController.xib */; };
+		5C4AB5481CEAEA37000FEE5A /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AB5471CEAEA37000FEE5A /* TestView.m */; };
+		5C4AB54C1CEAF777000FEE5A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4AB54B1CEAF777000FEE5A /* logo.png */; };
 		5C4BB8881CE07E1600114227 /* stuck.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5C4BB8871CE07E1600114227 /* stuck.gif */; };
 		5CA979D31CC7215300CD2818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA979D21CC7215300CD2818 /* main.m */; };
 		5CA979D61CC7215300CD2818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA979D51CC7215300CD2818 /* AppDelegate.m */; };
@@ -21,6 +25,12 @@
 /* Begin PBXFileReference section */
 		5C2A8B9E1CD2F48E00E068B4 /* Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Bridging-Header.h"; sourceTree = "<group>"; };
 		5C2A8B9F1CD2F48E00E068B4 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5C4AB5411CEAEA00000FEE5A /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		5C4AB5421CEAEA00000FEE5A /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		5C4AB5431CEAEA00000FEE5A /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		5C4AB5461CEAEA37000FEE5A /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		5C4AB5471CEAEA37000FEE5A /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		5C4AB54B1CEAF777000FEE5A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		5C4BB8871CE07E1600114227 /* stuck.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stuck.gif; sourceTree = "<group>"; };
 		5CA979CE1CC7215300CD2818 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA979D21CC7215300CD2818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,10 +77,16 @@
 			isa = PBXGroup;
 			children = (
 				5C4BB8871CE07E1600114227 /* stuck.gif */,
+				5C4AB54B1CEAF777000FEE5A /* logo.png */,
 				5CA979D41CC7215300CD2818 /* AppDelegate.h */,
 				5CA979D51CC7215300CD2818 /* AppDelegate.m */,
 				5CA979D71CC7215300CD2818 /* ViewController.h */,
 				5CA979D81CC7215300CD2818 /* ViewController.m */,
+				5C4AB5411CEAEA00000FEE5A /* TestViewController.h */,
+				5C4AB5421CEAEA00000FEE5A /* TestViewController.m */,
+				5C4AB5431CEAEA00000FEE5A /* TestViewController.xib */,
+				5C4AB5461CEAEA37000FEE5A /* TestView.h */,
+				5C4AB5471CEAEA37000FEE5A /* TestView.m */,
 				5CF862921CD9A2A300B69028 /* NSString+Extension.h */,
 				5CF862931CD9A2A300B69028 /* NSString+Extension.m */,
 				5C2A8B9F1CD2F48E00E068B4 /* File.swift */,
@@ -150,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CA979E11CC7215300CD2818 /* LaunchScreen.storyboard in Resources */,
+				5C4AB5451CEAEA00000FEE5A /* TestViewController.xib in Resources */,
+				5C4AB54C1CEAF777000FEE5A /* logo.png in Resources */,
 				5CA979DE1CC7215300CD2818 /* Assets.xcassets in Resources */,
 				5CA979DC1CC7215300CD2818 /* Main.storyboard in Resources */,
 				5C4BB8881CE07E1600114227 /* stuck.gif in Resources */,
@@ -163,6 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4AB5481CEAEA37000FEE5A /* TestView.m in Sources */,
+				5C4AB5441CEAEA00000FEE5A /* TestViewController.m in Sources */,
 				5CF862941CD9A2A300B69028 /* NSString+Extension.m in Sources */,
 				5CA979D91CC7215300CD2818 /* ViewController.m in Sources */,
 				5C2A8BA01CD2F48E00E068B4 /* File.swift in Sources */,
